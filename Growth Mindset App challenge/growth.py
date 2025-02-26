@@ -15,9 +15,8 @@ if page == "Home":
     This app will help you develop a growth mindset through challenges, quizzes, and motivation.  
     Use the sidebar to explore different sections.
     """)
-
     # Display the image
-    image = Image.open("image1.jpg")
+    image = Image.open(os.getcwd(),"Growth Mindset App challenge/image1.jpg")
     st.image(image, caption="Embrace Growth!", use_container_width=True)
     
 # Placeholder for other pages
